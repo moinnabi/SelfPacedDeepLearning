@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+
+echo "Downloading models..."
+
+
+if [ -f "models.zip" ]; then
+   rm models.zip
+fi
+
+wget https://www.dropbox.com/s/kgb6wqeuxud7r5t/models.zip
+
+echo "Unzipping..."
+tar -xf models.zip && rm -f models.zip
+
+echo "Done."

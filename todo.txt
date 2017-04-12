@@ -1,0 +1,3 @@
+- Release code for ImageNet ILSVRC-det dataset (implement roidb creation and evaluation)
+- Weakly supervised ROIDB creation code (implement using weakly_supervised_roidb function in roidb.py)
+- Release SIML and MIML versions
